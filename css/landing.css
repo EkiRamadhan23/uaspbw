@@ -1,0 +1,125 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Style untuk halaman welcome */
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #61dafb;
+  color: #fff;
+}
+
+.welcome-page h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.welcome-page button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #282c34;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.welcome-page button:hover {
+  background-color: #61dafb;
+}
+
+/* Style untuk navbar */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a.logo {
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+nav .nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Style untuk kontainer utama */
+.container {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style untuk tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Style untuk tombol aksi */
+.actions a {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.actions a:hover {
+  background-color: #555;
+}
